@@ -63,8 +63,8 @@ We participated in the **NTIRE 2026 Ambient Lighting Normalization Challenge**, 
 
 | Track | Team | PSNR Rank | SSIM Rank | LPIPS Rank | FID Rank | Fidelity Rank | Perceptual Rank |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Color Lighting | ACVLab | 4 | 2 | 2 | 1 | 3 | 3 |
-| White Lighting | ACVLab | 3 | 3 | 2 | 3 | 3 | 2 |
+| Color Lighting | ACVLab | 3 | 3 | 2 | 3 | 3 | 3 |
+| White Lighting | ACVLab | 4 | 2 | 2 | 1 | 2 | 3 |
 
 ---
 
