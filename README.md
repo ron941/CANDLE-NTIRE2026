@@ -1,7 +1,7 @@
 # CANDLE: Illumination-Invariant Semantic Priors for Color Ambient Lighting Normalization
 
 <p align="center">
-  <img src="assets/candle_logo.png" width="240">
+  <img src="assets/candle_logo.png" width="720">
 </p>
 
 <p align="center">
@@ -25,8 +25,11 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2604.02785">arXiv</a> |
-  <a href="https://arxiv.org/pdf/2604.02785">論文</a> |
-  <a href="https://github.com/ron941/CANDLE-NTIRE2026">程式碼</a>
+  <a href="https://arxiv.org/pdf/2604.02785">Paper</a> |
+  <a href="https://github.com/ron941/CANDLE-NTIRE2026">Code</a> |
+  <a href="https://www.cvlai.net/ntire/2026/">NTIRE 2026</a> |
+  <a href="https://www.codabench.org/competitions/12792/">Color ALN Challenge</a> |
+  <a href="https://www.codabench.org/competitions/12703/">White ALN Challenge</a>
 </p>
 
 Official PyTorch implementation of **CANDLE**, a DINO-guided framework for **Color Ambient Lighting Normalization**.
@@ -39,7 +42,7 @@ We provide the official implementation of **CANDLE**, a framework for lighting-r
 
 CANDLE explores how illumination-invariant semantic priors from self-supervised vision foundation models can improve image restoration under severe color shifts, non-uniform lighting, and material-dependent reflectance.
 
-- **[CVPRW 2026 / NTIRE 2026] 🕯️ CANDLE: Illumination-Invariant Semantic Priors for Color Ambient Lighting Normalization**  
+- **[NTIRE 2026] 🕯️ CANDLE: Illumination-Invariant Semantic Priors for Color Ambient Lighting Normalization**  
   [[arXiv](https://arxiv.org/abs/2604.02785)] [[paper](https://arxiv.org/pdf/2604.02785)] [[code](https://github.com/ron941/CANDLE-NTIRE2026)]
 
   - Uses DINO semantic priors for robust color ambient lighting normalization.
@@ -65,13 +68,14 @@ We participated in the **NTIRE 2026 Ambient Lighting Normalization Challenge**, 
 
 - 🥉 **[3rd Place] Fidelity Track**: Ambient Lighting Normalization (**Color Lighting**)
 - 🥉 **[3rd Place] Perceptual Track**: Ambient Lighting Normalization (**Color Lighting**)
-- 🥈 **[2nd Place] Perceptual Track**: Ambient Lighting Normalization (**White Lighting**)
-- 🏅 **Best FID Rank** on the **Color Lighting** track
+- 🥈 **[2nd Place] Fidelity Track**: Ambient Lighting Normalization (**White Lighting**)
+- 🥉 **[3rd Place] Perceptual Track**: Ambient Lighting Normalization (**White Lighting**)
+- 🏅 **Best FID Rank** on the **White Lighting** track
 
 | Track | Team | PSNR Rank | SSIM Rank | LPIPS Rank | FID Rank | Fidelity Rank | Perceptual Rank |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Color Lighting | ACVLab | 3 | 3 | 2 | 3 | 3 | 3 |
-| White Lighting | ACVLab | 4 | 2 | 2 | 1 | 2 | 3 |
+| [Color Lighting](https://www.codabench.org/competitions/12792/) | ACVLab | 3 | 3 | 2 | 3 | 3 | 3 |
+| [White Lighting](https://www.codabench.org/competitions/12703/) | ACVLab | 4 | 2 | 2 | 1 | 2 | 3 |
 
 ---
 
@@ -82,7 +86,7 @@ We participated in the **NTIRE 2026 Ambient Lighting Normalization Challenge**, 
 </p>
 
 <p align="center">
-  Example results of CANDLE for ambient lighting normalization.
+  Qualitative examples of CANDLE for ambient lighting normalization.
 </p>
 
 ---
