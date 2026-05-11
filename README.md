@@ -9,17 +9,24 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CVPRW-2026-blue">
-  <img src="https://img.shields.io/badge/NTIRE-2026-purple">
-  <img src="https://img.shields.io/badge/Challenge-ALN-orange">
-  <img src="https://img.shields.io/badge/PyTorch-Official-red">
-  <img src="https://img.shields.io/badge/arXiv-2604.02785-b31b1b">
+  <a href="https://www.cvlai.net/ntire/2026/">
+    <img src="https://img.shields.io/badge/NTIRE-2026-purple">
+  </a>
+  <a href="https://www.codabench.org/competitions/12792/">
+    <img src="https://img.shields.io/badge/Challenge-ALN-orange">
+  </a>
+  <a href="https://pytorch.org/">
+    <img src="https://img.shields.io/badge/PyTorch-Official-ee4c2c?logo=pytorch&logoColor=white">
+  </a>
+  <a href="https://arxiv.org/abs/2604.02785">
+    <img src="https://img.shields.io/badge/arXiv-2604.02785-b31b1b">
+  </a>
 </p>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2604.02785">arXiv</a> |
-  <a href="https://arxiv.org/pdf/2604.02785">Paper</a> |
-  <a href="https://github.com/ron941/CANDLE-NTIRE2026">Code</a>
+  <a href="https://arxiv.org/pdf/2604.02785">論文</a> |
+  <a href="https://github.com/ron941/CANDLE-NTIRE2026">程式碼</a>
 </p>
 
 Official PyTorch implementation of **CANDLE**, a DINO-guided framework for **Color Ambient Lighting Normalization**.
